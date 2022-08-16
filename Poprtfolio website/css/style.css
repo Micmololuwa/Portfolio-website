@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 :root {
   --primary-color: #d4af37;
-  --main-font:  "Work Sans";
+  --main-font: "Work Sans";
   --button-font: 18px;
   --header-font: 35px;
 }
@@ -16,11 +16,8 @@
   .navbar {
     background: #f2f1ed;
     padding: 20px 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -37,16 +34,14 @@
   }
   .navbar nav .nav li {
     float: left;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     list-style-type: none;
   }
   .navbar nav .nav li a {
     text-decoration: none;
     color: black;
     font-weight: 400;
-    padding: 0 .5em;
+    padding: 0 0.5em;
   }
   .navbar nav .nav li a:hover {
     border-bottom: 2px solid var(--primary-color);
@@ -85,14 +80,9 @@
     display: none;
   }
   .hero .hero-web {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-around;
+    align-items: center;
   }
   .hero .hero-web .nabs h2 {
     font-weight: 500;
@@ -133,11 +123,8 @@
     margin-bottom: 70px;
   }
   .brands .brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .brands .brand img {
     padding: 0px 20px;
@@ -147,10 +134,8 @@
   }
   .about-me .skls {
     list-style-type: none;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(30px, 1fr))[3];
-        grid-template-columns: repeat(3, minmax(30px, 1fr));
+    grid-template-columns: repeat(3, minmax(30px, 1fr));
   }
   .about-me .skls li {
     padding: 0px 30px 30px 5px;
@@ -158,7 +143,7 @@
     margin-right: 2em;
   }
   .about-me .skls li:before {
-    content: '';
+    content: "";
     left: -2em;
     position: absolute;
     width: 20px;
@@ -181,11 +166,8 @@
   .workprocess {
     padding: 50px 100px;
     background: whitesmoke;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .workprocess .sec1 h1 {
     color: var(--primary-color);
@@ -203,10 +185,8 @@
     color: white;
   }
   .workprocess .sec2 {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(30px, 1fr))[2];
-        grid-template-columns: repeat(2, minmax(30px, 1fr));
+    grid-template-columns: repeat(2, minmax(30px, 1fr));
   }
   .workprocess .sec2 div {
     padding: 0px 40px;
@@ -234,8 +214,6 @@
     margin-bottom: 60px;
   }
   .services .service {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .services .service div {
@@ -267,15 +245,9 @@
     font-size: var(--header-font);
   }
   .lproject .proj {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
   .lproject .proj div img {
     width: 500px;
@@ -318,10 +290,8 @@
     font-size: var(--header-font);
   }
   .portfolio .ports {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(30px, 1fr))[2];
-        grid-template-columns: repeat(2, minmax(30px, 1fr));
+    grid-template-columns: repeat(2, minmax(30px, 1fr));
   }
   .portfolio .ports div {
     background: white;
@@ -375,15 +345,9 @@
   .cont {
     padding: 50px 100px;
     background-color: #635d48;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
   .cont p {
     color: white;
@@ -400,7 +364,6 @@
     height: 35px;
   }
 }
-
 @media (min-width: 320px) and (max-width: 479px) {
   body {
     background-color: #fdf9eb;
@@ -410,12 +373,8 @@
   .navbar {
     background: #f2f1ed;
     padding: 20px 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -435,16 +394,14 @@
   }
   .navbar nav .nav li {
     float: left;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     list-style-type: none;
   }
   .navbar nav .nav li a {
     text-decoration: none;
     color: black;
     font-weight: 400;
-    padding: 0 .5em;
+    padding: 0 0.5em;
   }
   .navbar nav .nav li a:hover {
     border-bottom: 2px solid var(--primary-color);
@@ -484,13 +441,8 @@
     display: none;
   }
   .hero .hero-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: -20px;
   }
   .hero .hero-mobile .profile-pics {
@@ -539,8 +491,6 @@
     margin-bottom: 40px;
   }
   .brands .brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
     overflow-x: auto;
@@ -554,10 +504,8 @@
   }
   .about-me .skls {
     list-style-type: none;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(5px, 1fr))[1];
-        grid-template-columns: repeat(1, minmax(5px, 1fr));
+    grid-template-columns: repeat(1, minmax(5px, 1fr));
   }
   .about-me .skls li {
     padding: 0px 30px 30px 5px;
@@ -565,7 +513,7 @@
     margin-right: 2em;
   }
   .about-me .skls li:before {
-    content: '';
+    content: "";
     left: -2em;
     position: absolute;
     width: 20px;
@@ -588,8 +536,7 @@
   .workprocess {
     padding: 20px 15px;
     background: whitesmoke;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .workprocess .sec1 h1 {
     color: var(--primary-color);
@@ -731,7 +678,6 @@
     height: 35px;
   }
 }
-
 @media (min-width: 480px) and (max-width: 768px) {
   body {
     background-color: #fdf9eb;
@@ -741,12 +687,8 @@
   .navbar {
     background: #f2f1ed;
     padding: 20px 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -766,16 +708,14 @@
   }
   .navbar nav .nav li {
     float: left;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     list-style-type: none;
   }
   .navbar nav .nav li a {
     text-decoration: none;
     color: black;
     font-weight: 400;
-    padding: 0 .5em;
+    padding: 0 0.5em;
   }
   .navbar nav .nav li a:hover {
     border-bottom: 2px solid var(--primary-color);
@@ -815,13 +755,8 @@
     display: none;
   }
   .hero .hero-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: -90px;
   }
   .hero .hero-mobile .nabs h2 {
@@ -863,11 +798,8 @@
     margin-bottom: 40px;
   }
   .brands .brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .brands .brand img {
     padding: 0px 5px;
@@ -878,10 +810,8 @@
   }
   .about-me .skls {
     list-style-type: none;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(5px, 1fr))[3];
-        grid-template-columns: repeat(3, minmax(5px, 1fr));
+    grid-template-columns: repeat(3, minmax(5px, 1fr));
   }
   .about-me .skls li {
     padding: 0px 30px 30px 5px;
@@ -889,7 +819,7 @@
     margin-right: 2em;
   }
   .about-me .skls li:before {
-    content: '';
+    content: "";
     left: -2em;
     position: absolute;
     width: 20px;
@@ -912,11 +842,8 @@
   .workprocess {
     padding: 20px 15px;
     background: whitesmoke;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .workprocess .sec1 h1 {
     color: var(--primary-color);
@@ -934,10 +861,8 @@
     color: white;
   }
   .workprocess .sec2 {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(30px, 1fr))[2];
-        grid-template-columns: repeat(2, minmax(30px, 1fr));
+    grid-template-columns: repeat(2, minmax(30px, 1fr));
   }
   .workprocess .sec2 div {
     padding: 0px 40px;
@@ -965,8 +890,6 @@
     margin-bottom: 60px;
   }
   .services .service {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .services .service div {
@@ -999,12 +922,8 @@
     font-size: var(--header-font);
   }
   .portfolio .ports {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .portfolio .ports div {
     background: white;
@@ -1058,15 +977,9 @@
   .cont {
     padding: 20px 15px;
     background-color: #635d48;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
   .cont p {
     color: white;
@@ -1083,7 +996,6 @@
     height: 35px;
   }
 }
-
 @media (min-width: 769px) and (max-width: 1023px) {
   body {
     background-color: #fdf9eb;
@@ -1093,12 +1005,8 @@
   .navbar {
     background: #f2f1ed;
     padding: 20px 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -1118,16 +1026,14 @@
   }
   .navbar nav .nav li {
     float: left;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     list-style-type: none;
   }
   .navbar nav .nav li a {
     text-decoration: none;
     color: black;
     font-weight: 400;
-    padding: 0 .5em;
+    padding: 0 0.5em;
   }
   .navbar nav .nav li a:hover {
     border-bottom: 2px solid var(--primary-color);
@@ -1167,13 +1073,8 @@
     display: none;
   }
   .hero .hero-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: -90px;
   }
   .hero .hero-mobile .nabs h2 {
@@ -1215,11 +1116,8 @@
     margin-bottom: 40px;
   }
   .brands .brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .brands .brand img {
     padding: 0px 5px;
@@ -1230,10 +1128,8 @@
   }
   .about-me .skls {
     list-style-type: none;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(5px, 1fr))[3];
-        grid-template-columns: repeat(3, minmax(5px, 1fr));
+    grid-template-columns: repeat(3, minmax(5px, 1fr));
   }
   .about-me .skls li {
     padding: 0px 30px 30px 5px;
@@ -1241,7 +1137,7 @@
     margin-right: 2em;
   }
   .about-me .skls li:before {
-    content: '';
+    content: "";
     left: -2em;
     position: absolute;
     width: 20px;
@@ -1264,11 +1160,8 @@
   .workprocess {
     padding: 20px 15px;
     background: whitesmoke;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .workprocess .sec1 h1 {
     color: var(--primary-color);
@@ -1286,10 +1179,8 @@
     color: white;
   }
   .workprocess .sec2 {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(30px, 1fr))[2];
-        grid-template-columns: repeat(2, minmax(30px, 1fr));
+    grid-template-columns: repeat(2, minmax(30px, 1fr));
   }
   .workprocess .sec2 div {
     padding: 0px 40px;
@@ -1317,8 +1208,6 @@
     margin-bottom: 60px;
   }
   .services .service {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .services .service div {
@@ -1351,12 +1240,8 @@
     font-size: var(--header-font);
   }
   .portfolio .ports {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .portfolio .ports div {
     background: white;
@@ -1410,15 +1295,9 @@
   .cont {
     padding: 20px 15px;
     background-color: #635d48;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
   .cont p {
     color: white;
@@ -1434,5 +1313,4 @@
     width: 35px;
     height: 35px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
